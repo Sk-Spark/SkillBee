@@ -1,0 +1,7 @@
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/bin/SkillBee.dll.mdb
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/bin/SkillBee.dll
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/obj/Debug/SkillBee.dll
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/obj/Debug/SkillBee.dll.mdb
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/bin/SkillBee.pdb
+/home/spark/Projects/ASP.NET/SkillBee/SkillBee/obj/Debug/SkillBee.pdb

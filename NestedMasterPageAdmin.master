@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NestedMasterPageAdmin.master.cs" Inherits="SkillBee.NestedMasterPageAdmin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <link href="Styles/content.css" rel="stylesheet" />
+    <link href="Styles/admin.css" rel="stylesheet" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <div class="gradiant">&nbsp;</div>
+
+    <div id="LeftMenu">
+        <ul>
+            <li id="addTopics"><a runat="server" href="~/addTopics.aspx">Topics </a></li>
+            <li id="subTopics"><a id="A1" runat="server" href="~/subTopics.aspx">Sub-Topics </a></li>
+            <li id="challenges"><a id="A2" runat="server" href="~/addChallenges.aspx">Challenges </a></li>
+            <li id="question"><a runat="server" href="~/addQuestions.aspx">Question</a></li>
+        </ul>
+    </div>
+
+
+    <div class="divAdminContainer">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>

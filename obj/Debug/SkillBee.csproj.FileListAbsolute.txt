@@ -1,0 +1,15 @@
+E:\PROJECTS\ASP.NET\SkillBee\SkillBee\bin\SkillBee.dll
+E:\PROJECTS\ASP.NET\SkillBee\SkillBee\bin\SkillBee.pdb
+E:\PROJECTS\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.dll
+E:\PROJECTS\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.pdb
+E:\SkillBee\SkillBee\bin\SkillBee.dll
+E:\SkillBee\SkillBee\bin\SkillBee.pdb
+E:\SkillBee\SkillBee\obj\Debug\SkillBee.csprojResolveAssemblyReference.cache
+E:\SkillBee\SkillBee\obj\Debug\SkillBee.dll
+E:\SkillBee\SkillBee\obj\Debug\SkillBee.pdb
+C:\Spark\Projects\VisualStudio\ASP.NET\SkillBee\SkillBee\bin\SkillBee.dll
+C:\Spark\Projects\VisualStudio\ASP.NET\SkillBee\SkillBee\bin\SkillBee.pdb
+C:\Spark\Projects\VisualStudio\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.dll
+C:\Spark\Projects\VisualStudio\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.pdb
+E:\PROJECTS\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.csprojResolveAssemblyReference.cache
+C:\Spark\Projects\VisualStudio\ASP.NET\SkillBee\SkillBee\obj\Debug\SkillBee.csprojResolveAssemblyReference.cache

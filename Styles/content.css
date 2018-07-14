@@ -1,0 +1,13 @@
+﻿.gradiant {
+    background-color: rgb(221, 221, 221);
+    background: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,102,255,0.7),rgba(0,0,0,0));
+    height: 8px;
+    position: fixed;
+    width: 100%;
+    top: 60px;
+}
+
+#Content {
+    background-color: #333a44;
+    padding: 150px 0px;
+}

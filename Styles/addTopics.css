@@ -1,0 +1,73 @@
+﻿#Content {
+    padding-top: 50px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+    min-height: 50px;
+    border: 8px solid #4782bc;
+    border-radius: 4px;
+    background-color: #cfcfcf;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+    .container > hr {
+        /*box-shadow: 0px 1px 4px 0px #616161;*/
+        color: #ffffff;
+    }
+
+.heading {
+    line-height: 40px;
+    color: #616161;
+    font-size: 40px;
+    font-family: 'Book Antiqua';
+}
+
+.txtBox {
+    height: 25px;
+    margin: 10px 0px;
+    padding-left: 10px;
+    background-color: #616161;
+    color: #eee;
+    width: 150px;
+    border-radius: 4px;
+    font-style: italic;
+}
+
+
+.button {
+    padding: 3px 13px;
+    margin: 0px 3px;
+    background-color: #3380CE;
+    color: #fff;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: #2370BE;
+        /*box-shadow: 0px 0px 10px 2px #06f;*/
+    }
+
+.TableHeader {
+    color: #323232;
+    font-family: Lucida Calligraphy;
+}
+
+.TableHeaderCell {
+    margin: 0px 20px;
+    padding: 0px 10px;
+    border-right: 1px solid #A7A7A7;
+}
+
+.TableCell {
+    text-align: center;
+    color: #06f;
+    border-right: 1px solid #A7A7A7;
+    padding: 0px 10px;
+    border-top: 1px solid #A7A7A7;
+}

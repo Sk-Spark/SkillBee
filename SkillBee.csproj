@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{166F5516-3577-4804-A271-4B54547470C2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkillBee</RootNamespace>
+    <AssemblyName>SkillBee</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutUs.aspx" />
+    <Content Include="addChallenges.aspx" />
+    <Content Include="addQuestions.aspx" />
+    <Content Include="addTopics.aspx" />
+    <Content Include="challenges.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="ExamForm.aspx" />
+    <Content Include="Results.aspx" />
+    <Content Include="ShashiTest.aspx" />
+    <Content Include="Styles\addTopics.css" />
+    <Content Include="Styles\admin.css" />
+    <Content Include="adminLogin.aspx" />
+    <Content Include="contactUs.aspx" />
+    <Content Include="cpp\challenges.aspx" />
+    <Content Include="cSharp\challenges.aspx" />
+    <Content Include="css\challenges.aspx" />
+    <Content Include="feedback.aspx" />
+    <Content Include="img\6_thumb.jpg" />
+    <Content Include="Styles\aboutUs.css" />
+    <Content Include="Styles\contactUs.css" />
+    <Content Include="c\challenges.aspx" />
+    <Content Include="img\backgrounds\default.jpg" />
+    <Content Include="img\backgrounds\registration.jpg" />
+    <Content Include="img\c.png" />
+    <Content Include="img\cpp.png" />
+    <Content Include="img\cSharp.png" />
+    <Content Include="img\css.png" />
+    <Content Include="img\html.png" />
+    <Content Include="img\java.png" />
+    <Content Include="img\linux.png" />
+    <Content Include="img\logo%28288x500%29.png" />
+    <Content Include="img\logo2.png" />
+    <Content Include="img\LogoImg.png" />
+    <Content Include="img\mySql.png" />
+    <Content Include="img\oracle.png" />
+    <Content Include="img\sql.png" />
+    <Content Include="img\sqlServer.png" />
+    <Content Include="img\top-arrow.png" />
+    <Content Include="img\unix.png" />
+    <Content Include="img\up-arrow-round-blue.png" />
+    <Content Include="img\windows.png" />
+    <Content Include="java\challenges.aspx" />
+    <Content Include="linux\challenges.aspx" />
+    <Content Include="mySql\challenges.aspx" />
+    <Content Include="oracle\challenges.aspx" />
+    <Content Include="sqlServer\challenges.aspx" />
+    <Content Include="Styles\challenges.css" />
+    <Content Include="Styles\content.css" />
+    <Content Include="Styles\default.css" />
+    <Content Include="Styles\Master.css" />
+    <Content Include="register.aspx" />
+    <Content Include="subTopics.aspx" />
+    <Content Include="unix\challenges.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="default1.aspx" />
+    <Content Include="html\challenges.aspx" />
+    <Content Include="windows\challenges.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutUs.aspx.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutUs.aspx.designer.cs">
+      <DependentUpon>aboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addChallenges.aspx.cs">
+      <DependentUpon>addChallenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addChallenges.aspx.designer.cs">
+      <DependentUpon>addChallenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addQuestions.aspx.cs">
+      <DependentUpon>addQuestions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addQuestions.aspx.designer.cs">
+      <DependentUpon>addQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addTopics.aspx.cs">
+      <DependentUpon>addTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addTopics.aspx.designer.cs">
+      <DependentUpon>addTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminLogin.aspx.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminLogin.aspx.designer.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppCode\BusinessLogic.cs" />
+    <Compile Include="AppCode\ChallengesDataAccessLayer.cs" />
+    <Compile Include="AppCode\Connection.cs" />
+    <Compile Include="AppCode\MeriteDataAccessLayers.cs" />
+    <Compile Include="AppCode\QuestionDataAccessLayer.cs" />
+    <Compile Include="AppCode\ResultDataAccessLayer.cs" />
+    <Compile Include="AppCode\SubTopicDataAccessLayer.cs" />
+    <Compile Include="AppCode\TopicDataAccessLayer.cs" />
+    <Compile Include="challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contactUs.aspx.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contactUs.aspx.designer.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cpp\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cpp\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cSharp\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cSharp\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="css\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="css\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="c\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="c\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamForm.aspx.cs">
+      <DependentUpon>ExamForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExamForm.aspx.designer.cs">
+      <DependentUpon>ExamForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="feedback.aspx.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="feedback.aspx.designer.cs">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="java\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="java\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="linux\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="linux\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mySql\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mySql\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NestedMasterPageAdmin.master.cs">
+      <DependentUpon>NestedMasterPageAdmin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NestedMasterPageAdmin.master.designer.cs">
+      <DependentUpon>NestedMasterPageAdmin.master</DependentUpon>
+    </Compile>
+    <Compile Include="oracle\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oracle\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Results.aspx.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Results.aspx.designer.cs">
+      <DependentUpon>Results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShashiTest.aspx.cs">
+      <DependentUpon>ShashiTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShashiTest.aspx.designer.cs">
+      <DependentUpon>ShashiTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="default1.aspx.cs">
+      <DependentUpon>default1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default1.aspx.designer.cs">
+      <DependentUpon>default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sqlServer\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sqlServer\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subTopics.aspx.cs">
+      <DependentUpon>subTopics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subTopics.aspx.designer.cs">
+      <DependentUpon>subTopics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="unix\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unix\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="windows\challenges.aspx.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="windows\challenges.aspx.designer.cs">
+      <DependentUpon>challenges.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <Content Include="NestedMasterPageAdmin.master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\DemoImg\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52606/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

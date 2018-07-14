@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SkillBee.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link rel="stylesheet" href="~/Styles/Master.css" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header">
+
+            <a runat="server" href="~/default.aspx">
+                <img runat="server" id="logoText" src="~/img/LogoImg.png" alt="Logo" />
+            </a>
+
+            <div class="divnav">
+                <ul class="nav">
+                    <li><a id="A1" runat="server" href="~/default.aspx">Home </a></li>
+                    <li><a id="A3" runat="server" href="~/contactUs.aspx">Contact Us </a></li>
+                    <li><a id="A4" runat="server" href="~/feedback.aspx">Feedback </a></li>
+                    <li><a id="A6" runat="server" href="~/aboutUs.aspx">About Us </a></li>
+                    <li><a id="A5" runat="server" href="~/adminLogin.aspx">Admin </a></li>
+                </ul>
+
+            </div>
+
+            <div>
+                <a runat="server" id="loginText" href="~/register.aspx" visible="True">Login / Signup </a>
+                <div id="divLogout" runat="server">
+                    <ul id="UlUserDropDown">
+                        <li>
+                    <asp:Button ID="UserLoginText" CssClass="divLogout_p" runat="server" BorderStyle="None" Visible="true" ></asp:Button>
+                            <ul id="SubUlUserDropDown">
+                                <li id="LinkHome" runat="server" ><a href="default.aspx">Home</a></li>
+                                <li id="LinkResult" runat="server" ><a href="Results.aspx">Result</a></li>
+                                <li><a href="#">Change Password</a></li>
+                                <li><asp:Button ID="btnLogout" runat="server" Text="Logout" BorderStyle="None" OnClick="btnLogout_Click"/></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+
+            <div class="fotterContaner">
+
+                <img runat="server" src="~/img/logo2.png" />
+                <div class="follow">
+                    <h2 class="h2">Follow us on </h2>
+                    <img runat="server" src="~/img/fb.png" />
+                    <img runat="server" src="~/img/google.png" />
+                    <img runat="server" src="~/img/twitter_2.png" />
+                </div>
+                <hr style="width: 80%;">
+
+                <table align="center" cellpadding="20px">
+                    <tr>
+                        <td></td>
+                        <td>About Us | Contact Us | Terms & Conditions 
+                        <br>
+                            Copyright © Times Web Solutions (A Division of Spark IT Solutions) 2016.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

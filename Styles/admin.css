@@ -1,0 +1,39 @@
+﻿#Content {
+    padding-top: 50px;
+}
+
+#LeftMenu {
+    float: left;
+    width: 200px;
+    min-height: 300px;
+    margin-top: 20px;
+}
+
+    #LeftMenu > ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+        #LeftMenu > ul > li {
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #222;
+            width: 144px;
+            background-color: #101010;
+            margin: 5px 0px;
+            border-radius: 5px;
+            text-align: center;
+            transition: width .4s ease 0s;
+        }
+
+            #LeftMenu > ul > li:hover {
+                width: 190px;
+            }
+
+.divAdminContainer {
+    margin-left: 250px;
+    min-height: 900px;
+    margin-top: 25px;
+}

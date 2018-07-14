@@ -1,0 +1,34 @@
+ChallengesID,SubTopicID,Heading1,Heading2,Display
+1,1,C Programming,Easy Level,1
+2,1,C Programming,Intermediate Level,1
+3,1,C Programming,Difficult Level,1
+4,2,C# Programming,Easy Level,1
+5,2,C# Programming,Intermediate Level,1
+6,2,C# Programming,Difficult Level,1
+7,3,C++ Programming,Easy Level,1
+8,3,C++ Programming,Intermediate Level,1
+9,3,C++ Programming,Difficult Level,1
+10,4,Java Programming,Easy Level,1
+11,4,Java Programming,Intermediate Level,1
+12,4,Java Programming,Difficult Level,1
+13,4,JDBC Programming , ,1
+14,4,JSP Programming , ,1
+15,5,Linux Programming,Easy Level,1
+16,5,Linux Programming,Intermediate Level,1
+17,5,Linux Programming,Difficult Level,1
+18,6,Windows Programming,Easy Level,1
+19,6,Windows Programming,Intermediate Level,1
+20,6,Windows Programming,Difficult Level,1
+21,8,DHTML, ,1
+22,8,HTML 5.0, ,1
+23,8,XHTML, ,1
+24,9,CSS Programming,Easy Level,1
+25,9,CSS Programming,Intermediate Level,1
+26,9,CSS Programming,Difficult Level,1
+27,10,My SQL Programming ,Easy Level,1
+28,10,My SQL Programming,Intermediate Level,1
+29,10,My SQL Programming,Difficult Level,1
+30,11,MS SQL Server,Easy Level,1
+31,11,MS SQL Server, Intermediate Level,1
+32,11,MS SQL Server,Difficult Level,1
+33,12,Oracle 10g, ,1
